@@ -79,7 +79,6 @@ public class UserDaoJDBCImpl extends Util implements UserDao {
                 byte age = rs.getByte("age");
                 users.add(new User(name, lastName, age));
             }
-            users.forEach(System.out::println);
         } catch (SQLException e) {
             e.printStackTrace();
         }
