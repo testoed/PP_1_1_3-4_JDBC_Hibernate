@@ -12,7 +12,7 @@ public class UserDaoJDBCImpl extends Util implements UserDao {
     private Connection conn;
 
     public UserDaoJDBCImpl() {
-        this.conn = getConnection();
+
     }
 
     public void createUsersTable() {
